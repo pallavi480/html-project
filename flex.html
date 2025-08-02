@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Menu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f6f6f6;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 300px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      font-size: 18px;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #e0a100;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 1000px) {
+      .card {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center; margin-bottom: 40px;"> Our Coffee Selection</h2>
+
+  <div class="container">
+    <div class="card"><div class="card-header">Cappuccino <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+    <div class="card"><div class="card-header">Americano <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+    <div class="card"><div class="card-header">Espresso <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+    <div class="card"><div class="card-header">Macchiato <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+    <div class="card"><div class="card-header">Mocha <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+    <div class="card"><div class="card-header">Coffee Latte <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+    <div class="card"><div class="card-header">Piccolo Latte <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+    <div class="card"><div class="card-header">Ristretto <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+    <div class="card"><div class="card-header">Affogato <span class="price">$49</span></div><p class="description">Usage of the Internet is becoming more common due to rapid advance.</p></div>
+  </div>
+
+</body>
+</html>
