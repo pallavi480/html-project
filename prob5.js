@@ -1,12 +1,21 @@
-let arr = [1,3,4,5,6,7,8];
+// let num = [1,2,3,4,5,6,7,8];
 
-for(let i=0;i<arr.length;i++){
-console.log(arr[i])
-}
+// // let str = ["apple","orange","mango","banana"]
 
-// arr [1] 3
-// arr [1] 4
-// arr [1] 5
-// arr [1] 6
-// arr [1] 7
-// arr [1] 8
+
+// // sort
+
+// num.sort()
+
+// // str.sort()
+
+// console.log(num)
+
+
+let num = [12,387,945,78,34];
+
+num.sort(function(a,b){
+    return b-a
+})
+
+console.log(num)

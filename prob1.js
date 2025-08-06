@@ -1,19 +1,19 @@
+let arr = [1,2,3,4,5,6,7,8]
 
-let a = "dress"
-let b = "shoes"
-let c = "computer"
+for(let i=0;i<=arr.length;i++){
+    // console.log(arr)
+}
 
-console.log(a)
-console.log(b)
-console.log("how are you",c,"my name is pallavi")
+// let arr = [9,8,7,6,5,4,3,2,1]
 
-let x = 10; //number
-let y = "34" //string
-// console.log (typeof x)
+// for (let i=0;i<=arr.length;i++){
+//     console.log(i)
+// }
 
-let yes = true; //boolean
-console.log(typeof yes)
+// foreach map => itrate
 
-let abc = false;
-console.log(typeof abc)
+arr.map(function(el,index,array){
 
+    console.log(array)
+
+})

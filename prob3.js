@@ -1,25 +1,21 @@
-// let arr = [1,2,3,4,56,34,90]
+let str = [9,8,7,6,5,4,3,2,1]
 
-// let last_index = arr.length-1;
+let x = str.map (function(el,index,array){
 
-// // console.log(last_index)
+    // console.log(array)
 
-// let x = arr[last_index]
+    return array
 
-// console.log(x)
+})
 
-let num = [2,4,6]
+console.log(x)
 
-let x = num [2]
+let y = str.forEach (function (el,index,array){
 
-// add
-num [3] = 45
+    // console.log(el)
 
-// update
+    return array 
 
-num [0]=12
+})
 
-num [5]=55
-
-console.log(num)
-
+console.log(y)

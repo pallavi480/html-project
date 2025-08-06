@@ -1,41 +1,12 @@
-// let arr = [1,4,2,5,6,7,9,8,5]
+let str = [1,2,3,4,5,6,7,8];
 
-// let x = arr.length-1
+// splice (index, how many el you want to be deleted,no of element you want to add)
 
-// console.log(arr[x])
+// str.splice (4,2,"pallavi")
 
-// methods 
-
-// push pop shift and unshift 
-
-// let arr1= [1,2,3]
-
-// arr1.push(4,"hello")
-
-// console.log(arr1)
-
-// let arr1= [5,6,7]
-
-// arr.pop(7,8)
-
-// console.log(arr1)
-
-// let arr1 = [];
-
-// arr1.push(4,5,6)
-
-// arr1.pop()
-
-// console.log(arr1)
+// console.log(str)
 
 
-let arr = [8,9,5];
+let x = str.slice (4,5)
 
-// arr.shift()
-arr.unshift(34)
-
-console.log(arr)
-
-
-
-
+console.log(x)

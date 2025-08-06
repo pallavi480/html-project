@@ -1,24 +1,28 @@
-// make a arry with your hobbies
+// let str = ["a","b","c",1,2,3]
 
-let pallavi_hobbies =["writing","reading","watching movies","playing games"]
+// str.map (function(el,index,array){
 
-console.log(pallavi_hobbies)
+//     // console.log(array)
 
-// how to access 
+// })
 
-// Index in array will start from zero
+// str.forEach(function(el,index,array){
 
-let x = pallavi_hobbies[0]
+//     console.log(array);
+// });
 
-// console.log(x)
+let arr= [1,2,3,4,5,6,78]
 
-// console.log (pallavi_hobbies[0])
-// console.log (pallavi_hobbies[1])
-// console.log (pallavi_hobbies[2])
-// console.log (pallavi_hobbies[3])
+let y = arr.map (function(el,index,array){
+    return array
+})
 
-let arr = [2, 4, 6, 8, 10, 45, 56 ];
+console.log(y)
 
-let y = arr.length-1;
-console.log(arr[6])
+// function abc (){
+//     return "hello"
+// }
 
+
+//  let x = abc()
+//  console.log(x)
