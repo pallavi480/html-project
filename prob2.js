@@ -1,49 +1,24 @@
-//Arithmetic operator + - * / % **
+// make a arry with your hobbies
 
-// let a = 5;
-// let b = 10;
-// let c = b-a;
+let pallavi_hobbies =["writing","reading","watching movies","playing games"]
 
-// console.log("output is",a+b,"ok")
+console.log(pallavi_hobbies)
 
-// console.log("result is",c)
+// how to access 
 
-// console.log(a*b)
+// Index in array will start from zero
 
-// console.log(b/a)/
+let x = pallavi_hobbies[0]
 
-// modulo operator % = reminder
+// console.log(x)
 
-// let x = 9;
-// let y = 2;
-// let a = 5;
-// let b = 3;
+// console.log (pallavi_hobbies[0])
+// console.log (pallavi_hobbies[1])
+// console.log (pallavi_hobbies[2])
+// console.log (pallavi_hobbies[3])
 
-// console.log(x%y)
+let arr = [2, 4, 6, 8, 10, 45, 56 ];
 
-// console.log(a%b)
-
-// exponational operator ** = power 
-
-// let x = 2;
-// let y = 4;
-
-// let z = x**y // x's power y, 2*2*2*2*
-
-// console.log(z)
-
-// console.log (x**5)//2*2*2*2*2
-
-// console.log (7**4)//7*7*7*7
-
-
-let a = 5;
-let b = 2;
-
-let c = 2**3 //*2*2*2
-
-let d = a**b //*5*5*5
-
-console.log(d)
-
+let y = arr.length-1;
+console.log(arr[6])
 
