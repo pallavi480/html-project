@@ -1,21 +1,11 @@
-let str = [9,8,7,6,5,4,3,2,1]
+function concate (a,b){
 
-let x = str.map (function(el,index,array){
+    console.log(a+b)
+}
 
-    // console.log(array)
+concate("pallavi", "vaishu");
 
-    return array
+// concatination
+// string + number = string
+// string + string = string 
 
-})
-
-console.log(x)
-
-let y = str.forEach (function (el,index,array){
-
-    // console.log(el)
-
-    return array 
-
-})
-
-console.log(y)

@@ -1,28 +1,8 @@
-// let str = ["a","b","c",1,2,3]
+// parameters
 
-// str.map (function(el,index,array){
+function diff (a,b,c){
 
-//     // console.log(array)
+    console.log(a-b,c)
+}
 
-// })
-
-// str.forEach(function(el,index,array){
-
-//     console.log(array);
-// });
-
-let arr= [1,2,3,4,5,6,78]
-
-let y = arr.map (function(el,index,array){
-    return array
-})
-
-console.log(y)
-
-// function abc (){
-//     return "hello"
-// }
-
-
-//  let x = abc()
-//  console.log(x)
+diff(10,12,"hello");

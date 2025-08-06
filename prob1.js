@@ -1,19 +1,37 @@
-let arr = [1,2,3,4,5,6,7,8]
+// function 
 
-for(let i=0;i<=arr.length;i++){
-    // console.log(arr)
+//function is a pease of code 
+
+// function name ( ) { code }
+
+function greet () {
+
+    console.log("hello")
 }
 
-// let arr = [9,8,7,6,5,4,3,2,1]
+greet()
 
-// for (let i=0;i<=arr.length;i++){
-//     console.log(i)
-// }
 
-// foreach map => itrate
+let x = 10;
 
-arr.map(function(el,index,array){
+let y = 20;
 
-    console.log(array)
+let z = x+y;
 
-})
+function print (){
+    let x = "pallavi";
+    console.log(x)
+}
+
+print();
+
+// write a function to perform addition
+
+function add (){
+    let x =30;
+    let y =50;
+
+    console.log(x+y);
+}
+
+add();
